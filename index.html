@@ -8,79 +8,84 @@
 </head>
 
 <body>
-    <header>
-        <h1>Kory M. Fuerstenberg</h1>
-        <p>Developer • Builder • Creator</p>
-        <a class="cta" href="#apps">View My Apps</a>
-    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
+    <!-- HERO / LANDING SECTION -->
+    <section class="hero">
+        <h1>Building Tools That Make Tech Faster</h1>
+        <p class="subtitle">
+            Developer • Automation Engineer • AI Systems Builder  
+        </p>
+        <a class="cta" href="#apps">Explore My Work</a>
+    </section>
+
+    <!-- VALUE PROPOSITION -->
+    <section class="value">
+        <h2>Software That Solves Real Problems</h2>
         <p>
-            I'm a developer who builds tools, apps, and automation systems.
-            I work with Swift, macOS tooling, ADB/Fastboot automation, and local AI systems.
+            I build high‑performance tools for automation, AI workflows, and device management.
+            My focus is on speed, reliability, and clean engineering.
         </p>
     </section>
 
-    <section id="apps">
-        <h2>My Apps</h2>
+    <!-- FEATURE GRID -->
+    <section class="features">
+        <div class="feature">
+            <h3>Automation</h3>
+            <p>Fast, reliable tooling for Android, macOS, and system‑level workflows.</p>
+        </div>
+        <div class="feature">
+            <h3>AI Engineering</h3>
+            <p>Local AI pipelines, dataset tools, and portable inference environments.</p>
+        </div>
+        <div class="feature">
+            <h3>App Development</h3>
+            <p>iOS and macOS apps built with Swift and modern UI patterns.</p>
+        </div>
+    </section>
 
-        <div class="card">
+    <!-- APPS / PRODUCTS -->
+    <section id="apps" class="products">
+        <h2>My Products</h2>
+
+        <div class="product-card">
             <h3>MLDataFactory</h3>
             <p>
                 A macOS tool for generating, labeling, and preparing datasets for local AI models.
-                Includes automation pipelines, image processing, and export to GGUF‑ready formats.
+                Includes automation pipelines, image processing, and GGUF‑ready exports.
             </p>
-            <a href="https://github.com/fuerstie/MLDataFactory">View Project</a>
+            <a href="https://github.com/fuerstie/MLDataFactory" class="product-btn">View Project</a>
         </div>
 
-        <div class="card">
+        <div class="product-card">
             <h3>ADB / Fastboot Automation CLI</h3>
             <p>
-                A Swift‑based command‑line tool that automates Android flashing, unlocking,
-                FRP‑state detection, and device provisioning. Built for speed on macOS.
+                A Swift‑based CLI that automates Android flashing, unlocking, FRP detection,
+                and device provisioning — built for speed on macOS.
             </p>
-            <a href="https://github.com/fuerstie">View Repo</a>
+            <a href="https://github.com/fuerstie" class="product-btn">View Repo</a>
         </div>
 
-        <div class="card">
-            <h3>Local AI Workstation (USB Portable Environment)</h3>
+        <div class="product-card">
+            <h3>Local AI Workstation</h3>
             <p>
-                A fully portable AI development environment using llama.cpp, GGUF models,
-                and optimized macOS builds. Runs from a USB drive with zero installation.
+                A fully portable AI development environment using llama.cpp and GGUF models.
+                Runs from a USB drive with zero installation.
             </p>
-            <a href="#">View Guide</a>
+            <a href="#" class="product-btn">View Guide</a>
         </div>
 
-        <div class="card">
+        <div class="product-card">
             <h3>FlipFindr (iOS App)</h3>
             <p>
-                A production‑ready iOS app for resellers: bulk photo scanning, item recognition,
-                barcode scanning, comps, sell‑through metrics, CSV export, and more.
+                A production‑ready reseller app: bulk photo scanning, item recognition,
+                barcode scanning, comps, sell‑through metrics, and CSV export.
             </p>
-            <a href="#">Coming Soon</a>
+            <a href="#" class="product-btn">Coming Soon</a>
         </div>
-
     </section>
 
-    <section id="projects">
-        <h2>Other Projects</h2>
-
-        <div class="card">
-            <h3>ADB Automation Tool</h3>
-            <p>CLI tool for flashing, unlocking, and automating Android devices.</p>
-            <a href="https://github.com/fuerstie">View Repo</a>
-        </div>
-
-        <div class="card">
-            <h3>Local AI Workstation</h3>
-            <p>Portable USB‑based AI coding environment.</p>
-            <a href="#">View Guide</a>
-        </div>
-
-    </section>
-
-    <section id="contact">
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:kory@example.com">kory@example.com</a></p>
         <p>GitHub: <a href="https://github.com/fuerstie">github.com/fuerstie</a></p>
@@ -89,5 +94,6 @@
     <footer>
         <p>© 2026 Kory Fuerstenberg</p>
     </footer>
+
 </body>
 </html>
